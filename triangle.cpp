@@ -1,3 +1,4 @@
+/*
 //
 // Created by JongHyeon Kim on 2019/12/24.
 //
@@ -48,3 +49,4 @@ int dp(int n, int index) {
     return d[n][index] = max(dp(n - 1, index - 1), dp(n - 1, index)) + triangle[n][index];
 }
 
+*/

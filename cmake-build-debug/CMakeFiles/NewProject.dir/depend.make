@@ -25,6 +25,8 @@ CMakeFiles/NewProject.dir/sam2382.cpp.o: ../sam2382.cpp
 
 CMakeFiles/NewProject.dir/soom.cpp.o: ../soom.cpp
 
+CMakeFiles/NewProject.dir/stairs.cpp.o: ../stairs.cpp
+
 CMakeFiles/NewProject.dir/triangle.cpp.o: ../triangle.cpp
 
 CMakeFiles/NewProject.dir/wave.cpp.o: ../wave.cpp
