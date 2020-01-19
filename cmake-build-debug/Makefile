@@ -312,6 +312,33 @@ brokeWall.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/brokeWall.cpp.s
 .PHONY : brokeWall.cpp.s
 
+encrypt.o: encrypt.cpp.o
+
+.PHONY : encrypt.o
+
+# target to build an object file
+encrypt.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/encrypt.cpp.o
+.PHONY : encrypt.cpp.o
+
+encrypt.i: encrypt.cpp.i
+
+.PHONY : encrypt.i
+
+# target to preprocess a source file
+encrypt.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/encrypt.cpp.i
+.PHONY : encrypt.cpp.i
+
+encrypt.s: encrypt.cpp.s
+
+.PHONY : encrypt.s
+
+# target to generate assembly for a file
+encrypt.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/encrypt.cpp.s
+.PHONY : encrypt.cpp.s
+
 fibonaci.o: fibonaci.cpp.o
 
 .PHONY : fibonaci.o
@@ -558,6 +585,9 @@ help:
 	@echo "... brokeWall.o"
 	@echo "... brokeWall.i"
 	@echo "... brokeWall.s"
+	@echo "... encrypt.o"
+	@echo "... encrypt.i"
+	@echo "... encrypt.s"
 	@echo "... fibonaci.o"
 	@echo "... fibonaci.i"
 	@echo "... fibonaci.s"

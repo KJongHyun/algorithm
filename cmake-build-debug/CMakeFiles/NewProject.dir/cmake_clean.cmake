@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NewProject.dir/RGB.cpp.o"
   "CMakeFiles/NewProject.dir/bead.cpp.o"
   "CMakeFiles/NewProject.dir/brokeWall.cpp.o"
+  "CMakeFiles/NewProject.dir/encrypt.cpp.o"
   "CMakeFiles/NewProject.dir/fibonaci.cpp.o"
   "CMakeFiles/NewProject.dir/kakao.cpp.o"
   "CMakeFiles/NewProject.dir/main.cpp.o"
