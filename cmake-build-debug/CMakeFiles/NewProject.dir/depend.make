@@ -15,6 +15,12 @@ CMakeFiles/NewProject.dir/bead.cpp.o: ../bead.cpp
 
 CMakeFiles/NewProject.dir/brokeWall.cpp.o: ../brokeWall.cpp
 
+CMakeFiles/NewProject.dir/coupang.cpp.o: ../coupang.cpp
+
+CMakeFiles/NewProject.dir/coupang2.cpp.o: ../coupang2.cpp
+
+CMakeFiles/NewProject.dir/encrypt.cpp.o: ../encrypt.cpp
+
 CMakeFiles/NewProject.dir/fibonaci.cpp.o: ../fibonaci.cpp
 
 CMakeFiles/NewProject.dir/kakao.cpp.o: ../kakao.cpp
@@ -24,6 +30,8 @@ CMakeFiles/NewProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/NewProject.dir/sam2382.cpp.o: ../sam2382.cpp
 
 CMakeFiles/NewProject.dir/soom.cpp.o: ../soom.cpp
+
+CMakeFiles/NewProject.dir/stack.cpp.o: ../stack.cpp
 
 CMakeFiles/NewProject.dir/stairs.cpp.o: ../stairs.cpp
 

@@ -101,6 +101,12 @@
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/2206.cpp">
 			<Option target="NewProject"/>
 		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp">
+			<Option target="NewProject"/>
+		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp">
+			<Option target="NewProject"/>
+		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/encrypt.cpp">
 			<Option target="NewProject"/>
 		</Unit>
@@ -113,10 +119,16 @@
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/main.cpp">
 			<Option target="NewProject"/>
 		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp">
+			<Option target="NewProject"/>
+		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/sam2382.cpp">
 			<Option target="NewProject"/>
 		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/soom.cpp">
+			<Option target="NewProject"/>
+		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/stack.cpp">
 			<Option target="NewProject"/>
 		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/stairs.cpp">

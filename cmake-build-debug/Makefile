@@ -312,6 +312,60 @@ brokeWall.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/brokeWall.cpp.s
 .PHONY : brokeWall.cpp.s
 
+coupang.o: coupang.cpp.o
+
+.PHONY : coupang.o
+
+# target to build an object file
+coupang.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.o
+.PHONY : coupang.cpp.o
+
+coupang.i: coupang.cpp.i
+
+.PHONY : coupang.i
+
+# target to preprocess a source file
+coupang.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.i
+.PHONY : coupang.cpp.i
+
+coupang.s: coupang.cpp.s
+
+.PHONY : coupang.s
+
+# target to generate assembly for a file
+coupang.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.s
+.PHONY : coupang.cpp.s
+
+coupang2.o: coupang2.cpp.o
+
+.PHONY : coupang2.o
+
+# target to build an object file
+coupang2.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.o
+.PHONY : coupang2.cpp.o
+
+coupang2.i: coupang2.cpp.i
+
+.PHONY : coupang2.i
+
+# target to preprocess a source file
+coupang2.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.i
+.PHONY : coupang2.cpp.i
+
+coupang2.s: coupang2.cpp.s
+
+.PHONY : coupang2.s
+
+# target to generate assembly for a file
+coupang2.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.s
+.PHONY : coupang2.cpp.s
+
 encrypt.o: encrypt.cpp.o
 
 .PHONY : encrypt.o
@@ -420,6 +474,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+queue.o: queue.cpp.o
+
+.PHONY : queue.o
+
+# target to build an object file
+queue.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/queue.cpp.o
+.PHONY : queue.cpp.o
+
+queue.i: queue.cpp.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/queue.cpp.i
+.PHONY : queue.cpp.i
+
+queue.s: queue.cpp.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/queue.cpp.s
+.PHONY : queue.cpp.s
+
 sam2382.o: sam2382.cpp.o
 
 .PHONY : sam2382.o
@@ -473,6 +554,33 @@ soom.s: soom.cpp.s
 soom.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/soom.cpp.s
 .PHONY : soom.cpp.s
+
+stack.o: stack.cpp.o
+
+.PHONY : stack.o
+
+# target to build an object file
+stack.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/stack.cpp.o
+.PHONY : stack.cpp.o
+
+stack.i: stack.cpp.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/stack.cpp.i
+.PHONY : stack.cpp.i
+
+stack.s: stack.cpp.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/stack.cpp.s
+.PHONY : stack.cpp.s
 
 stairs.o: stairs.cpp.o
 
@@ -585,6 +693,12 @@ help:
 	@echo "... brokeWall.o"
 	@echo "... brokeWall.i"
 	@echo "... brokeWall.s"
+	@echo "... coupang.o"
+	@echo "... coupang.i"
+	@echo "... coupang.s"
+	@echo "... coupang2.o"
+	@echo "... coupang2.i"
+	@echo "... coupang2.s"
 	@echo "... encrypt.o"
 	@echo "... encrypt.i"
 	@echo "... encrypt.s"
@@ -597,12 +711,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
 	@echo "... sam2382.o"
 	@echo "... sam2382.i"
 	@echo "... sam2382.s"
 	@echo "... soom.o"
 	@echo "... soom.i"
 	@echo "... soom.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
 	@echo "... stairs.o"
 	@echo "... stairs.i"
 	@echo "... stairs.s"

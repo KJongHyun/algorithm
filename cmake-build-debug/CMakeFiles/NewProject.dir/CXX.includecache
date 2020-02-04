@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/jonghyeonkim/CLionProjects/NewProject/stairs.cpp
-cstdio
+/Users/jonghyeonkim/CLionProjects/NewProject/stack.cpp
+iostream
 -
-algorithm
+stack
+-
+queue
 -
 

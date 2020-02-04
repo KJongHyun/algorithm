@@ -265,6 +265,58 @@ CMakeFiles/NewProject.dir/encrypt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/encrypt.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/encrypt.cpp -o CMakeFiles/NewProject.dir/encrypt.cpp.s
 
+CMakeFiles/NewProject.dir/coupang.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/coupang.cpp.o: ../coupang.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/NewProject.dir/coupang.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/coupang.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp
+
+CMakeFiles/NewProject.dir/coupang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/coupang.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp > CMakeFiles/NewProject.dir/coupang.cpp.i
+
+CMakeFiles/NewProject.dir/coupang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/coupang.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp -o CMakeFiles/NewProject.dir/coupang.cpp.s
+
+CMakeFiles/NewProject.dir/coupang2.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/coupang2.cpp.o: ../coupang2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/NewProject.dir/coupang2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/coupang2.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp
+
+CMakeFiles/NewProject.dir/coupang2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/coupang2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp > CMakeFiles/NewProject.dir/coupang2.cpp.i
+
+CMakeFiles/NewProject.dir/coupang2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/coupang2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp -o CMakeFiles/NewProject.dir/coupang2.cpp.s
+
+CMakeFiles/NewProject.dir/stack.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/stack.cpp.o: ../stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/NewProject.dir/stack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/stack.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/stack.cpp
+
+CMakeFiles/NewProject.dir/stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/stack.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/stack.cpp > CMakeFiles/NewProject.dir/stack.cpp.i
+
+CMakeFiles/NewProject.dir/stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/stack.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/stack.cpp -o CMakeFiles/NewProject.dir/stack.cpp.s
+
+CMakeFiles/NewProject.dir/queue.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/queue.cpp.o: ../queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/NewProject.dir/queue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/queue.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp
+
+CMakeFiles/NewProject.dir/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/queue.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp > CMakeFiles/NewProject.dir/queue.cpp.i
+
+CMakeFiles/NewProject.dir/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/queue.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp -o CMakeFiles/NewProject.dir/queue.cpp.s
+
 # Object files for target NewProject
 NewProject_OBJECTS = \
 "CMakeFiles/NewProject.dir/main.cpp.o" \
@@ -282,7 +334,11 @@ NewProject_OBJECTS = \
 "CMakeFiles/NewProject.dir/RGB.cpp.o" \
 "CMakeFiles/NewProject.dir/triangle.cpp.o" \
 "CMakeFiles/NewProject.dir/stairs.cpp.o" \
-"CMakeFiles/NewProject.dir/encrypt.cpp.o"
+"CMakeFiles/NewProject.dir/encrypt.cpp.o" \
+"CMakeFiles/NewProject.dir/coupang.cpp.o" \
+"CMakeFiles/NewProject.dir/coupang2.cpp.o" \
+"CMakeFiles/NewProject.dir/stack.cpp.o" \
+"CMakeFiles/NewProject.dir/queue.cpp.o"
 
 # External object files for target NewProject
 NewProject_EXTERNAL_OBJECTS =
@@ -303,9 +359,13 @@ NewProject: CMakeFiles/NewProject.dir/RGB.cpp.o
 NewProject: CMakeFiles/NewProject.dir/triangle.cpp.o
 NewProject: CMakeFiles/NewProject.dir/stairs.cpp.o
 NewProject: CMakeFiles/NewProject.dir/encrypt.cpp.o
+NewProject: CMakeFiles/NewProject.dir/coupang.cpp.o
+NewProject: CMakeFiles/NewProject.dir/coupang2.cpp.o
+NewProject: CMakeFiles/NewProject.dir/stack.cpp.o
+NewProject: CMakeFiles/NewProject.dir/queue.cpp.o
 NewProject: CMakeFiles/NewProject.dir/build.make
 NewProject: CMakeFiles/NewProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable NewProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable NewProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
