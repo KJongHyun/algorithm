@@ -312,59 +312,59 @@ brokeWall.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/brokeWall.cpp.s
 .PHONY : brokeWall.cpp.s
 
-coupang.o: coupang.cpp.o
+codingtest1.o: codingtest1.cpp.o
 
-.PHONY : coupang.o
-
-# target to build an object file
-coupang.cpp.o:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.o
-.PHONY : coupang.cpp.o
-
-coupang.i: coupang.cpp.i
-
-.PHONY : coupang.i
-
-# target to preprocess a source file
-coupang.cpp.i:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.i
-.PHONY : coupang.cpp.i
-
-coupang.s: coupang.cpp.s
-
-.PHONY : coupang.s
-
-# target to generate assembly for a file
-coupang.cpp.s:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang.cpp.s
-.PHONY : coupang.cpp.s
-
-coupang2.o: coupang2.cpp.o
-
-.PHONY : coupang2.o
+.PHONY : codingtest1.o
 
 # target to build an object file
-coupang2.cpp.o:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.o
-.PHONY : coupang2.cpp.o
+codingtest1.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest1.cpp.o
+.PHONY : codingtest1.cpp.o
 
-coupang2.i: coupang2.cpp.i
+codingtest1.i: codingtest1.cpp.i
 
-.PHONY : coupang2.i
+.PHONY : codingtest1.i
 
 # target to preprocess a source file
-coupang2.cpp.i:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.i
-.PHONY : coupang2.cpp.i
+codingtest1.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest1.cpp.i
+.PHONY : codingtest1.cpp.i
 
-coupang2.s: coupang2.cpp.s
+codingtest1.s: codingtest1.cpp.s
 
-.PHONY : coupang2.s
+.PHONY : codingtest1.s
 
 # target to generate assembly for a file
-coupang2.cpp.s:
-	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/coupang2.cpp.s
-.PHONY : coupang2.cpp.s
+codingtest1.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest1.cpp.s
+.PHONY : codingtest1.cpp.s
+
+codingtest2.o: codingtest2.cpp.o
+
+.PHONY : codingtest2.o
+
+# target to build an object file
+codingtest2.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest2.cpp.o
+.PHONY : codingtest2.cpp.o
+
+codingtest2.i: codingtest2.cpp.i
+
+.PHONY : codingtest2.i
+
+# target to preprocess a source file
+codingtest2.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest2.cpp.i
+.PHONY : codingtest2.cpp.i
+
+codingtest2.s: codingtest2.cpp.s
+
+.PHONY : codingtest2.s
+
+# target to generate assembly for a file
+codingtest2.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/codingtest2.cpp.s
+.PHONY : codingtest2.cpp.s
 
 encrypt.o: encrypt.cpp.o
 
@@ -500,6 +500,33 @@ queue.s: queue.cpp.s
 queue.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/queue.cpp.s
 .PHONY : queue.cpp.s
+
+quicksort.o: quicksort.cpp.o
+
+.PHONY : quicksort.o
+
+# target to build an object file
+quicksort.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/quicksort.cpp.o
+.PHONY : quicksort.cpp.o
+
+quicksort.i: quicksort.cpp.i
+
+.PHONY : quicksort.i
+
+# target to preprocess a source file
+quicksort.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/quicksort.cpp.i
+.PHONY : quicksort.cpp.i
+
+quicksort.s: quicksort.cpp.s
+
+.PHONY : quicksort.s
+
+# target to generate assembly for a file
+quicksort.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/quicksort.cpp.s
+.PHONY : quicksort.cpp.s
 
 sam2382.o: sam2382.cpp.o
 
@@ -693,12 +720,12 @@ help:
 	@echo "... brokeWall.o"
 	@echo "... brokeWall.i"
 	@echo "... brokeWall.s"
-	@echo "... coupang.o"
-	@echo "... coupang.i"
-	@echo "... coupang.s"
-	@echo "... coupang2.o"
-	@echo "... coupang2.i"
-	@echo "... coupang2.s"
+	@echo "... codingtest1.o"
+	@echo "... codingtest1.i"
+	@echo "... codingtest1.s"
+	@echo "... codingtest2.o"
+	@echo "... codingtest2.i"
+	@echo "... codingtest2.s"
 	@echo "... encrypt.o"
 	@echo "... encrypt.i"
 	@echo "... encrypt.s"
@@ -714,6 +741,9 @@ help:
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"
+	@echo "... quicksort.o"
+	@echo "... quicksort.i"
+	@echo "... quicksort.s"
 	@echo "... sam2382.o"
 	@echo "... sam2382.i"
 	@echo "... sam2382.s"

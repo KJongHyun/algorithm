@@ -15,10 +15,10 @@ CMakeFiles/NewProject.dir/bead.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/bead.cpp
 CMakeFiles/NewProject.dir/brokeWall.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/brokeWall.cpp
-CMakeFiles/NewProject.dir/coupang.cpp.o
- /Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp
-CMakeFiles/NewProject.dir/coupang2.cpp.o
- /Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp
+CMakeFiles/NewProject.dir/codingtest1.cpp.o
+ /Users/jonghyeonkim/CLionProjects/NewProject/codingtest1.cpp
+CMakeFiles/NewProject.dir/codingtest2.cpp.o
+ /Users/jonghyeonkim/CLionProjects/NewProject/codingtest2.cpp
 CMakeFiles/NewProject.dir/encrypt.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/encrypt.cpp
 CMakeFiles/NewProject.dir/fibonaci.cpp.o
@@ -27,6 +27,10 @@ CMakeFiles/NewProject.dir/kakao.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/kakao.cpp
 CMakeFiles/NewProject.dir/main.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/main.cpp
+CMakeFiles/NewProject.dir/queue.cpp.o
+ /Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp
+CMakeFiles/NewProject.dir/quicksort.cpp.o
+ /Users/jonghyeonkim/CLionProjects/NewProject/quicksort.cpp
 CMakeFiles/NewProject.dir/sam2382.cpp.o
  /Users/jonghyeonkim/CLionProjects/NewProject/sam2382.cpp
 CMakeFiles/NewProject.dir/soom.cpp.o

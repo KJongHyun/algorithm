@@ -101,10 +101,10 @@
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/2206.cpp">
 			<Option target="NewProject"/>
 		</Unit>
-		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/coupang.cpp">
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/codingtest1.cpp">
 			<Option target="NewProject"/>
 		</Unit>
-		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/coupang2.cpp">
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/codingtest2.cpp">
 			<Option target="NewProject"/>
 		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/encrypt.cpp">
@@ -120,6 +120,9 @@
 			<Option target="NewProject"/>
 		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp">
+			<Option target="NewProject"/>
+		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/quicksort.cpp">
 			<Option target="NewProject"/>
 		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/sam2382.cpp">
