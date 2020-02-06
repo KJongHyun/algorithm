@@ -1,58 +1,57 @@
-/*
-//
-// Created by JongHyeon Kim on 2020/01/28.
-//
-#include <iostream>
+#include <string>
 #include <vector>
 #include <queue>
+
 using namespace std;
 
 typedef struct Search {
-    int count;
-    vector<int> sum;
-} Search;
+    int amount;
+    int period;
+    vector<int> tDay;
+}Search;
 
-int sumVector(vector<int> v) {
+void calcTday(int T, int numb, vector<int> tDay) {
+    if (tDay.size() == T) {
+        tDay.erase(tDay.begin());
+    }
+    tDay.push_back(numb);
+
+}
+
+int sumTday(vector<int> v) {
     int sum = 0;
     for (int i = 0; i < v.size(); i++) {
         sum += v[i];
     }
+
     return sum;
 }
 
-int main()
-{
-    Search s = {0};
-    s.sum.push_back(3);
-    Search s2 = {1, s.sum};
-    s2.sum.push_back(5);
-
-    cout << s.sum[1] << endl;
-
-    cout << s2.sum[0] << endl;
-
-    cout << sumVector(s.sum);
-    cout << sumVector(s2.sum);
-
-
-    return 0;
-}
-int solution (int N, int M, int T, int K) {
-  */
-/*  int answer = 0;
+int solution(int N, int M, int T, int K) {
+    int answer = 0;
     queue<Search> q;
-    q.push({0});
+    q.push({0, 0});
     while(!q.empty()) {
         Search currentSearch = q.front();
         q.pop();
+        if (currentSearch.period > N)
+            continue;
+        if (sumTday(currentSearch.tDay) > K)
+            continue;
         if (currentSearch.amount == M && currentSearch.period == N) {
             answer++;
             continue;
         }
-        for (int i = 0; i <= N;i++) {
 
+        for (int i = 0; i <= M - currentSearch.amount; i++) {
+            Search s = {currentSearch.amount + i, currentSearch.period + 1, currentSearch.tDay};
+            if (s.tDay.size() == T) {
+                s.tDay.erase(s.tDay.begin());
+            }
+            s.tDay.push_back(i);
+
+            q.push(s);
         }
     }
-    return answer;*//*
-
-}*/
+    return answer;
+}

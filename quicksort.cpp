@@ -6,6 +6,7 @@ using namespace std;
 
 int number = 15;
 int data[15] = {10, 3, 8, 5, 2, 6, 4, 1, 9, 7,  31, 15, 23, 17, 29};
+int swapCount = 0;
 
 void quickSort(int * data, int start, int end) {
     if (start >= end)
@@ -15,7 +16,6 @@ void quickSort(int * data, int start, int end) {
     int i = start + 1;
     int j = end;
     int temp;
-    int count = 0;
     // 가장 바깥 while
     while (i <= j) {
         cout << "바깥 while : " << count++ << endl;
