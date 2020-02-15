@@ -1,3 +1,4 @@
+/*
 //
 // Created by JongHyeon Kim on 2020/02/05.
 //
@@ -48,4 +49,4 @@ int main() {
         cout << data[i] << " ";
     }
     return 0;
-}
+}*/

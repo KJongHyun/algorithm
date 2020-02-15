@@ -258,6 +258,33 @@ RGB.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/RGB.cpp.s
 .PHONY : RGB.cpp.s
 
+baek15649.o: baek15649.cpp.o
+
+.PHONY : baek15649.o
+
+# target to build an object file
+baek15649.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15649.cpp.o
+.PHONY : baek15649.cpp.o
+
+baek15649.i: baek15649.cpp.i
+
+.PHONY : baek15649.i
+
+# target to preprocess a source file
+baek15649.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15649.cpp.i
+.PHONY : baek15649.cpp.i
+
+baek15649.s: baek15649.cpp.s
+
+.PHONY : baek15649.s
+
+# target to generate assembly for a file
+baek15649.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15649.cpp.s
+.PHONY : baek15649.cpp.s
+
 bead.o: bead.cpp.o
 
 .PHONY : bead.o
@@ -714,6 +741,9 @@ help:
 	@echo "... RGB.o"
 	@echo "... RGB.i"
 	@echo "... RGB.s"
+	@echo "... baek15649.o"
+	@echo "... baek15649.i"
+	@echo "... baek15649.s"
 	@echo "... bead.o"
 	@echo "... bead.i"
 	@echo "... bead.s"

@@ -10,14 +10,6 @@ typedef struct Search {
     vector<int> tDay;
 }Search;
 
-void calcTday(int T, int numb, vector<int> tDay) {
-    if (tDay.size() == T) {
-        tDay.erase(tDay.begin());
-    }
-    tDay.push_back(numb);
-
-}
-
 int sumTday(vector<int> v) {
     int sum = 0;
     for (int i = 0; i < v.size(); i++) {

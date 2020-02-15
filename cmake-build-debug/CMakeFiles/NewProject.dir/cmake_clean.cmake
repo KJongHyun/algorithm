@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NewProject.dir/InsertionSort.cpp.o"
   "CMakeFiles/NewProject.dir/LinkedList.c.o"
   "CMakeFiles/NewProject.dir/RGB.cpp.o"
+  "CMakeFiles/NewProject.dir/baek15649.cpp.o"
   "CMakeFiles/NewProject.dir/bead.cpp.o"
   "CMakeFiles/NewProject.dir/brokeWall.cpp.o"
   "CMakeFiles/NewProject.dir/codingtest1.cpp.o"

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/jonghyeonkim/CLionProjects/NewProject/quicksort.cpp
+/Users/jonghyeonkim/CLionProjects/NewProject/baek15649.cpp
 iostream
+-
+queue
+-
+algorithm
 -
 
