@@ -11,6 +11,10 @@ CMakeFiles/NewProject.dir/InsertionSort.cpp.o: ../InsertionSort.cpp
 
 CMakeFiles/NewProject.dir/RGB.cpp.o: ../RGB.cpp
 
+CMakeFiles/NewProject.dir/baek15649.cpp.o: ../baek15649.cpp
+
+CMakeFiles/NewProject.dir/baek15649new.cpp.o: ../baek15649new.cpp
+
 CMakeFiles/NewProject.dir/bead.cpp.o: ../bead.cpp
 
 CMakeFiles/NewProject.dir/brokeWall.cpp.o: ../brokeWall.cpp

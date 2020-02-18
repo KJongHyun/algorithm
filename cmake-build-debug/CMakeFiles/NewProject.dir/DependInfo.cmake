@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jonghyeonkim/CLionProjects/NewProject/InsertionSort.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/InsertionSort.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/RGB.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/RGB.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/baek15649.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/baek15649.cpp.o"
+  "/Users/jonghyeonkim/CLionProjects/NewProject/baek15649new.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/baek15649new.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/bead.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/bead.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/brokeWall.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/brokeWall.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/codingtest1.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/codingtest1.cpp.o"

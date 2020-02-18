@@ -1,3 +1,4 @@
+/*
 //
 // Created by JongHyeon Kim on 2020/02/15.
 //
@@ -9,13 +10,14 @@ using namespace std;
 int arr[9];
 
 void permutation(int n ,int m, int depth);
-void swap(int * a, int * b);
+void rightSwap(int i, int depth);
+void leftSwap(int i, int depth);
 void printArr(int m);
 
 int main()
 {
     int n, m;
-    cin >> n >> m;
+    scanf("%d %d", &n, &m);
 
     for (int i = 0; i < n; i++) {
         arr[i] = i + 1;
@@ -33,23 +35,33 @@ void permutation(int n ,int m, int depth) {
     }
 
     for (int i = depth; i < n; i++) {
-        swap(&arr[i], &arr[depth]);
+        rightSwap(i, depth);
         permutation(n, m, depth + 1);
-        swap(&arr[i], &arr[depth]);
+        leftSwap(i, depth);
     }
 
 }
 
 void printArr(int m) {
     for (int i = 0; i < m; i ++) {
-        cout << arr[i] << " ";
+        printf("%d ", arr[i]);
     }
-    cout << endl;
+    printf("\n");
 
 }
 
-void swap(int * a, int * b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+void rightSwap(int i, int depth) {
+    int temp = arr[i];
+    for (int j = i; j > depth; j--) {
+        arr[j] = arr[j - 1];
+    }
+    arr[depth] = temp;
 }
+
+void leftSwap(int i, int depth) {
+    int temp = arr[depth];
+    for (int j = depth; j < i; j++) {
+        arr[j] = arr[j + 1];
+    }
+    arr[i] = temp;
+}*/
