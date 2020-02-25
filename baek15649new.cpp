@@ -1,3 +1,4 @@
+/*
 //
 // Created by JongHyeon Kim on 2020/02/18.
 //
@@ -45,4 +46,4 @@ void permu(int depth) {
         }
 
     }
-}
+}*/
