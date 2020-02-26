@@ -339,6 +339,33 @@ baek15651.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15651.cpp.s
 .PHONY : baek15651.cpp.s
 
+baek15652.o: baek15652.cpp.o
+
+.PHONY : baek15652.o
+
+# target to build an object file
+baek15652.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15652.cpp.o
+.PHONY : baek15652.cpp.o
+
+baek15652.i: baek15652.cpp.i
+
+.PHONY : baek15652.i
+
+# target to preprocess a source file
+baek15652.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15652.cpp.i
+.PHONY : baek15652.cpp.i
+
+baek15652.s: baek15652.cpp.s
+
+.PHONY : baek15652.s
+
+# target to generate assembly for a file
+baek15652.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/baek15652.cpp.s
+.PHONY : baek15652.cpp.s
+
 bead.o: bead.cpp.o
 
 .PHONY : bead.o
@@ -804,6 +831,9 @@ help:
 	@echo "... baek15651.o"
 	@echo "... baek15651.i"
 	@echo "... baek15651.s"
+	@echo "... baek15652.o"
+	@echo "... baek15652.i"
+	@echo "... baek15652.s"
 	@echo "... bead.o"
 	@echo "... bead.i"
 	@echo "... bead.s"

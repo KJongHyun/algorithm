@@ -15,6 +15,10 @@ CMakeFiles/NewProject.dir/baek15649.cpp.o: ../baek15649.cpp
 
 CMakeFiles/NewProject.dir/baek15649new.cpp.o: ../baek15649new.cpp
 
+CMakeFiles/NewProject.dir/baek15651.cpp.o: ../baek15651.cpp
+
+CMakeFiles/NewProject.dir/baek15652.cpp.o: ../baek15652.cpp
+
 CMakeFiles/NewProject.dir/bead.cpp.o: ../bead.cpp
 
 CMakeFiles/NewProject.dir/brokeWall.cpp.o: ../brokeWall.cpp
