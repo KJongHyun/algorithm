@@ -29,6 +29,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jonghyeonkim/CLionProjects/NewProject/fibonaci.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/fibonaci.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/kakao.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/kakao.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/main.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/main.cpp.o"
+  "/Users/jonghyeonkim/CLionProjects/NewProject/newNqueen.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/newNqueen.cpp.o"
+  "/Users/jonghyeonkim/CLionProjects/NewProject/nqueen.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/nqueen.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/queue.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/quicksort.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/quicksort.cpp.o"
   "/Users/jonghyeonkim/CLionProjects/NewProject/sam2382.cpp" "/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles/NewProject.dir/sam2382.cpp.o"

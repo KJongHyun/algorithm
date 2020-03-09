@@ -382,6 +382,32 @@ CMakeFiles/NewProject.dir/baek15652.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/baek15652.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/baek15652.cpp -o CMakeFiles/NewProject.dir/baek15652.cpp.s
 
+CMakeFiles/NewProject.dir/nqueen.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/nqueen.cpp.o: ../nqueen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/NewProject.dir/nqueen.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/nqueen.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/nqueen.cpp
+
+CMakeFiles/NewProject.dir/nqueen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/nqueen.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/nqueen.cpp > CMakeFiles/NewProject.dir/nqueen.cpp.i
+
+CMakeFiles/NewProject.dir/nqueen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/nqueen.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/nqueen.cpp -o CMakeFiles/NewProject.dir/nqueen.cpp.s
+
+CMakeFiles/NewProject.dir/newNqueen.cpp.o: CMakeFiles/NewProject.dir/flags.make
+CMakeFiles/NewProject.dir/newNqueen.cpp.o: ../newNqueen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/NewProject.dir/newNqueen.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewProject.dir/newNqueen.cpp.o -c /Users/jonghyeonkim/CLionProjects/NewProject/newNqueen.cpp
+
+CMakeFiles/NewProject.dir/newNqueen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewProject.dir/newNqueen.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonghyeonkim/CLionProjects/NewProject/newNqueen.cpp > CMakeFiles/NewProject.dir/newNqueen.cpp.i
+
+CMakeFiles/NewProject.dir/newNqueen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewProject.dir/newNqueen.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonghyeonkim/CLionProjects/NewProject/newNqueen.cpp -o CMakeFiles/NewProject.dir/newNqueen.cpp.s
+
 # Object files for target NewProject
 NewProject_OBJECTS = \
 "CMakeFiles/NewProject.dir/main.cpp.o" \
@@ -408,7 +434,9 @@ NewProject_OBJECTS = \
 "CMakeFiles/NewProject.dir/baek15649.cpp.o" \
 "CMakeFiles/NewProject.dir/baek15649new.cpp.o" \
 "CMakeFiles/NewProject.dir/baek15651.cpp.o" \
-"CMakeFiles/NewProject.dir/baek15652.cpp.o"
+"CMakeFiles/NewProject.dir/baek15652.cpp.o" \
+"CMakeFiles/NewProject.dir/nqueen.cpp.o" \
+"CMakeFiles/NewProject.dir/newNqueen.cpp.o"
 
 # External object files for target NewProject
 NewProject_EXTERNAL_OBJECTS =
@@ -438,9 +466,11 @@ NewProject: CMakeFiles/NewProject.dir/baek15649.cpp.o
 NewProject: CMakeFiles/NewProject.dir/baek15649new.cpp.o
 NewProject: CMakeFiles/NewProject.dir/baek15651.cpp.o
 NewProject: CMakeFiles/NewProject.dir/baek15652.cpp.o
+NewProject: CMakeFiles/NewProject.dir/nqueen.cpp.o
+NewProject: CMakeFiles/NewProject.dir/newNqueen.cpp.o
 NewProject: CMakeFiles/NewProject.dir/build.make
 NewProject: CMakeFiles/NewProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable NewProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonghyeonkim/CLionProjects/NewProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable NewProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

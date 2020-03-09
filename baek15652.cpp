@@ -1,3 +1,4 @@
+/*
 //
 // Created by JongHyeon Kim on 2020/02/26.
 //
@@ -37,4 +38,4 @@ void printArr(int m) {
         printf("%d ", arr[i]);
     }
     printf("\n");
-}
+}*/

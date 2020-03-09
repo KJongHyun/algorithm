@@ -582,6 +582,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+newNqueen.o: newNqueen.cpp.o
+
+.PHONY : newNqueen.o
+
+# target to build an object file
+newNqueen.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/newNqueen.cpp.o
+.PHONY : newNqueen.cpp.o
+
+newNqueen.i: newNqueen.cpp.i
+
+.PHONY : newNqueen.i
+
+# target to preprocess a source file
+newNqueen.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/newNqueen.cpp.i
+.PHONY : newNqueen.cpp.i
+
+newNqueen.s: newNqueen.cpp.s
+
+.PHONY : newNqueen.s
+
+# target to generate assembly for a file
+newNqueen.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/newNqueen.cpp.s
+.PHONY : newNqueen.cpp.s
+
+nqueen.o: nqueen.cpp.o
+
+.PHONY : nqueen.o
+
+# target to build an object file
+nqueen.cpp.o:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/nqueen.cpp.o
+.PHONY : nqueen.cpp.o
+
+nqueen.i: nqueen.cpp.i
+
+.PHONY : nqueen.i
+
+# target to preprocess a source file
+nqueen.cpp.i:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/nqueen.cpp.i
+.PHONY : nqueen.cpp.i
+
+nqueen.s: nqueen.cpp.s
+
+.PHONY : nqueen.s
+
+# target to generate assembly for a file
+nqueen.cpp.s:
+	$(MAKE) -f CMakeFiles/NewProject.dir/build.make CMakeFiles/NewProject.dir/nqueen.cpp.s
+.PHONY : nqueen.cpp.s
+
 queue.o: queue.cpp.o
 
 .PHONY : queue.o
@@ -858,6 +912,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... newNqueen.o"
+	@echo "... newNqueen.i"
+	@echo "... newNqueen.s"
+	@echo "... nqueen.o"
+	@echo "... nqueen.i"
+	@echo "... nqueen.s"
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"

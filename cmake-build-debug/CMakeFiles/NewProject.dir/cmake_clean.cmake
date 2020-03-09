@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NewProject.dir/fibonaci.cpp.o"
   "CMakeFiles/NewProject.dir/kakao.cpp.o"
   "CMakeFiles/NewProject.dir/main.cpp.o"
+  "CMakeFiles/NewProject.dir/newNqueen.cpp.o"
+  "CMakeFiles/NewProject.dir/nqueen.cpp.o"
   "CMakeFiles/NewProject.dir/queue.cpp.o"
   "CMakeFiles/NewProject.dir/quicksort.cpp.o"
   "CMakeFiles/NewProject.dir/sam2382.cpp.o"

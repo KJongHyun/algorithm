@@ -131,6 +131,12 @@
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/main.cpp">
 			<Option target="NewProject"/>
 		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/newNqueen.cpp">
+			<Option target="NewProject"/>
+		</Unit>
+		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/nqueen.cpp">
+			<Option target="NewProject"/>
+		</Unit>
 		<Unit filename="/Users/jonghyeonkim/CLionProjects/NewProject/queue.cpp">
 			<Option target="NewProject"/>
 		</Unit>

@@ -35,6 +35,10 @@ CMakeFiles/NewProject.dir/kakao.cpp.o: ../kakao.cpp
 
 CMakeFiles/NewProject.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/NewProject.dir/newNqueen.cpp.o: ../newNqueen.cpp
+
+CMakeFiles/NewProject.dir/nqueen.cpp.o: ../nqueen.cpp
+
 CMakeFiles/NewProject.dir/queue.cpp.o: ../queue.cpp
 
 CMakeFiles/NewProject.dir/quicksort.cpp.o: ../quicksort.cpp
