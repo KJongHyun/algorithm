@@ -1,0 +1,123 @@
+////
+//// Created by JongHyeon Kim on 2020/02/04.
+////
+//#include <iostream>
+//#include <stack>
+//#include <queue>
+//
+//using namespace std;
+//
+//template<typename T>
+//class Stack {
+//public :
+//    class Value {
+//    public:
+//        T data;
+//        Value *prev;
+//    };
+//
+//private:
+//    Value * topPtr = NULL;
+//public:
+//
+//    void push(T data) {
+//        Value *valueInstance = new Value();
+//        valueInstance->data = data;
+//        valueInstance->prev = topPtr;
+//        topPtr = valueInstance;
+//    }
+//
+//    T &top() {
+//        if (topPtr != NULL)
+//        return topPtr->data;
+//        return NULL;
+//    }
+//
+//    void pop() {
+//        if (topPtr != NULL) {
+//            Value *temp = topPtr;
+//            topPtr = temp->prev;
+//            delete temp;
+//        }
+//
+//    }
+//
+//    bool isEmpty() {
+//        if (topPtr == NULL)
+//            return true;
+//        else
+//            return false;
+//    }
+//};
+//
+//template<typename T>
+//class Queue {
+//public:
+//    class Value {
+//    public:
+//        T data;
+//        Value * next;
+//    };
+//
+//private:
+//    Value * frontPtr = NULL;
+//    Value * tailPtr = NULL;
+//
+//public:
+//
+//    void push_back(T data) {
+//        Value * valueInstance = new Value();
+//        valueInstance->data = data;
+//        valueInstance->next = NULL;
+//        if (frontPtr == NULL)
+//            frontPtr = valueInstance;
+//        if (tailPtr == NULL)
+//            tailPtr = valueInstance;
+//        else {
+//            tailPtr->next = valueInstance;
+//            tailPtr = valueInstance;
+//        }
+//    }
+//
+//    T& front() {
+//        if (frontPtr != NULL)
+//            return frontPtr->data;
+//    }
+//
+//    void pop() {
+//        if (frontPtr != NULL) {
+//            Value * temp = frontPtr;
+//            frontPtr = temp->next;
+//            delete temp;
+//        }
+//    }
+//
+//    bool empty() {
+//        if (frontPtr == NULL)
+//            return true;
+//        else
+//            return false;
+//    }
+//};
+//
+//
+//int main() {
+//
+//    Queue<int> q;
+//    q.push_back(3);
+//    q.push_back(4);
+//    q.push_back(1);
+//    q.push_back(5);
+//
+//    while (!q.empty()) {
+//        int a = q.front();
+//        q.pop();
+//
+//        cout << a << endl;
+//    }
+//
+//
+//
+//    return 0;
+//
+//}
