@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="백준2580 문제">
-      <change afterPath="$PROJECT_DIR$/src/pg60061.java" afterDir="false" />
+    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pg60057.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAlgorithm/META-INF/JavaAlgorithm.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +41,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>in</find>
-      <find>sc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -33,14 +49,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1dUG58c4rTEk7QXdbn8BQ0eG4t3" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectId" id="1d1n6FwzVcvcHAanpestsVNI67C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,7 +82,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.pg60061">
+  <component name="RunManager" selected="Application.pg60057">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaAlgorithm" />
@@ -85,15 +111,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj5373" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj5373" />
+    <configuration name="pg60057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg60057" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg60061" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pg60061" />
+    <configuration name="pg60059" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg60059" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,13 +130,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.back2933new" />
       <item itemvalue="Application.boj2580" />
-      <item itemvalue="Application.boj5373" />
-      <item itemvalue="Application.pg60061" />
+      <item itemvalue="Application.pg60059" />
+      <item itemvalue="Application.pg60057" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pg60061" />
-        <item itemvalue="Application.boj5373" />
+        <item itemvalue="Application.pg60057" />
+        <item itemvalue="Application.pg60059" />
         <item itemvalue="Application.boj2580" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.back2933new" />
@@ -130,11 +156,10 @@
       <workItem from="1585915964803" duration="7766000" />
       <workItem from="1585969998310" duration="14363000" />
       <workItem from="1586060859849" duration="33130000" />
-      <workItem from="1592111354608" duration="18304000" />
-      <workItem from="1592216236019" duration="4310000" />
-      <workItem from="1592381027476" duration="776000" />
-      <workItem from="1592472081233" duration="3000" />
-      <workItem from="1592477024566" duration="3984000" />
+      <workItem from="1591601290892" duration="2152000" />
+      <workItem from="1591795120832" duration="176000" />
+      <workItem from="1591884489910" duration="501000" />
+      <workItem from="1592381259379" duration="11423000" />
     </task>
     <task id="LOCAL-00001" summary="백준2933 문제">
       <created>1586187630629</created>
@@ -150,62 +175,93 @@
       <option name="project" value="LOCAL" />
       <updated>1586358733150</updated>
     </task>
-    <task id="LOCAL-00003" summary="자물쇠 문제 추가">
-      <created>1592381203844</created>
+    <task id="LOCAL-00003" summary="백준2580 문제">
+      <created>1591601471690</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1592381203844</updated>
+      <updated>1591601471690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="백준2580 문제">
+      <created>1591604781056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591604781056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="프로그래머스 60059 문제">
+      <created>1592389065906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592389065906</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="백준2933 문제" />
     <MESSAGE value="백준2580 문제" />
-    <MESSAGE value="자물쇠 문제 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="자물쇠 문제 추가" />
+    <MESSAGE value="프로그래머스 60059 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 60059 문제" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1592493873049">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="857" y="313" key="CommitChangelistDialog2" timestamp="1592389065813">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592493873049" />
-    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1592493873049">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="857" y="295" key="CommitChangelistDialog2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604780984" />
+    <state x="857" y="295" key="CommitChangelistDialog2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601471606" />
+    <state x="857" y="313" key="CommitChangelistDialog2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389065813" />
+    <state width="2055" height="371" key="GridCell.Tab.0.bottom" timestamp="1592393340283">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592493873049" />
-    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1592493873048">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2055" height="371" key="GridCell.Tab.0.bottom/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
+    <state width="2055" height="371" key="GridCell.Tab.0.center" timestamp="1592393340282">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592493873048" />
-    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1592493873049">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2055" height="371" key="GridCell.Tab.0.center/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
+    <state width="2055" height="371" key="GridCell.Tab.0.left" timestamp="1592393340282">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592493873049" />
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom" timestamp="1592493873051">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2055" height="371" key="GridCell.Tab.0.left/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
+    <state width="2055" height="371" key="GridCell.Tab.0.right" timestamp="1592393340283">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592493873051" />
-    <state width="1398" height="302" key="GridCell.Tab.1.center" timestamp="1592493873050">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2055" height="371" key="GridCell.Tab.0.right/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
+    <state x="880" y="476" key="Vcs.Push.Dialog.v2" timestamp="1592389067892">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592493873050" />
-    <state width="1398" height="302" key="GridCell.Tab.1.left" timestamp="1592493873050">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604783313" />
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601473389" />
+    <state x="880" y="476" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389067892" />
+    <state x="737" y="527" key="git4idea.merge.GitPullDialog" timestamp="1592381270481">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592493873050" />
-    <state width="1398" height="302" key="GridCell.Tab.1.right" timestamp="1592493873051">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592493873051" />
-    <state x="408" y="245" key="git4idea.merge.GitPullDialog" timestamp="1592477039929">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="245" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1592477039929" />
+    <state x="737" y="527" key="git4idea.merge.GitPullDialog/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592381270481" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="interval[0][0]" language="JAVA" />
+        <watch expression="dot.row-min" language="JAVA" />
+        <watch expression="(int) Math.ceil((double)row / 3)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
