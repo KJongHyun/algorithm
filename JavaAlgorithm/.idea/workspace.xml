@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pg60057.java" afterDir="false" />
+    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="프로그래머스 60059 문제">
+      <change afterPath="$PROJECT_DIR$/src/pg42888.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pg60061.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pg60061.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -57,16 +59,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
   <component name="ProjectId" id="1d1n6FwzVcvcHAanpestsVNI67C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -82,14 +82,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.pg60057">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaAlgorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.pg42888">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="back2933" />
       <module name="JavaAlgorithm" />
@@ -97,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="back2933new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="back2933new" />
+    <configuration name="boj2580" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj2580" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2580" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj2580" />
+    <configuration name="pg42888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg42888" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,21 +118,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pg60061" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg60061" />
+      <module name="JavaAlgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.back2933new" />
       <item itemvalue="Application.boj2580" />
       <item itemvalue="Application.pg60059" />
       <item itemvalue="Application.pg60057" />
+      <item itemvalue="Application.pg60061" />
+      <item itemvalue="Application.pg42888" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg42888" />
+        <item itemvalue="Application.pg60061" />
         <item itemvalue="Application.pg60057" />
         <item itemvalue="Application.pg60059" />
         <item itemvalue="Application.boj2580" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.back2933new" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +160,8 @@
       <workItem from="1591795120832" duration="176000" />
       <workItem from="1591884489910" duration="501000" />
       <workItem from="1592381259379" duration="11423000" />
+      <workItem from="1592751066133" duration="252000" />
+      <workItem from="1592978708874" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="백준2933 문제">
       <created>1586187630629</created>
@@ -221,47 +223,93 @@
     <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 60059 문제" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="857" y="313" key="CommitChangelistDialog2" timestamp="1592389065813">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592981448021">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1592981448021" />
+    <state x="482" y="68" key="CommitChangelistDialog2" timestamp="1592733712891">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="68" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592733712891" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604780984" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601471606" />
     <state x="857" y="313" key="CommitChangelistDialog2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389065813" />
-    <state width="2055" height="371" key="GridCell.Tab.0.bottom" timestamp="1592393340283">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1592984043604">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592984043604" />
     <state width="2055" height="371" key="GridCell.Tab.0.bottom/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
-    <state width="2055" height="371" key="GridCell.Tab.0.center" timestamp="1592393340282">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1592984043603">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592984043603" />
     <state width="2055" height="371" key="GridCell.Tab.0.center/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
-    <state width="2055" height="371" key="GridCell.Tab.0.left" timestamp="1592393340282">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1592984043602">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592984043602" />
     <state width="2055" height="371" key="GridCell.Tab.0.left/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
-    <state width="2055" height="371" key="GridCell.Tab.0.right" timestamp="1592393340283">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1592984043603">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592984043603" />
     <state width="2055" height="371" key="GridCell.Tab.0.right/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
-    <state x="880" y="476" key="Vcs.Push.Dialog.v2" timestamp="1592389067892">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1592984043777">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592984043777" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1592984043776">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592984043776" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1592984043774">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592984043774" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1592984043776">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592984043776" />
+    <state x="495" y="288" key="Vcs.Push.Dialog.v2" timestamp="1592733716850">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="288" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592733716850" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604783313" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601473389" />
     <state x="880" y="476" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389067892" />
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592736758071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592736758071" />
     <state x="737" y="527" key="git4idea.merge.GitPullDialog" timestamp="1592381270481">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="737" y="527" key="git4idea.merge.GitPullDialog/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592381270481" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592743432344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592743432344" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="interval[0][0]" language="JAVA" />
-        <watch expression="dot.row-min" language="JAVA" />
-        <watch expression="(int) Math.ceil((double)row / 3)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pg60061.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pg60061.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pg42888.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">

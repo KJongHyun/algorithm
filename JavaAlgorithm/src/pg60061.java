@@ -5,6 +5,8 @@ public class pg60061 {
     public static int[][] map;
     public static int mapLength;
 
+    public static int[][][] contructMap;
+
     public static void main(String[] args) {
         int[][] buildFrame = {
                 {1, 0, 0, 1},
@@ -17,7 +19,11 @@ public class pg60061 {
                 {3, 2, 1, 1}
         };
 
-        int[][] ans = solution(5, buildFrame);
+        int[][] buildFrame2 =
+                {{0, 0, 0, 1}, {2, 0, 0, 1}, {4, 0, 0, 1}, {0, 1, 1, 1}, {1, 1, 1, 1}, {2, 1, 1, 1}, {3, 1, 1, 1}, {2, 0, 0, 0}, {1, 1, 1, 0}, {2, 2, 0, 1}};
+
+
+        int[][] ans = solution(5, buildFrame2);
         for (int i = 0; i < ans.length; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(ans[i][j] + " ");
@@ -36,41 +42,66 @@ public class pg60061 {
     // 0 = 삭제, 1 = 설
 
     public static int[][] solution(int n, int[][] build_frame) {
-        mapLength = n + 1;
-        map = new int[mapLength][mapLength];
-        for (int i = 0; i < mapLength; i++) {
-            for (int j = 0; j < mapLength; j++) {
-                map[i][j] = 3;
+        mapLength = n;
+        map = new int[mapLength + 1][mapLength + 1];
+        contructMap = new int[2][mapLength + 1][mapLength + 1];
+        for (int i = 0; i <= mapLength; i++) {
+            for (int j = 0; j <= mapLength; j++) {
+                map[i][j] = -1;
+                contructMap[0][i][j] = -1;
+                contructMap[1][i][j] = -1;
+
             }
         }
 
         for (int i = 0; i < build_frame.length; i++) {
-            if (build_frame[i][3] == 1) {
+            int x = build_frame[i][0];
+            int y = build_frame[i][1];
+            int a = build_frame[i][2];
+            int b = build_frame[i][3];
+            // 설치
+            if (b == 1) {
                 boolean isBuildable;
-                if (build_frame[i][2] == 1)
-                    isBuildable = isBuildableBo(build_frame[i][0], build_frame[i][1]);
+                if (a == 1)
+                    isBuildable = isBuildableBo(x, y);
                 else
-                    isBuildable = isBuildablePillar(build_frame[i][0], build_frame[i][1]);
+                    isBuildable = isBuildablePillar(x, y);
                 if (isBuildable) {
-                    map[build_frame[i][1]][build_frame[i][0]] = build_frame[i][2];
+                    contructMap[a][y][x] = a;
                 }
-            } else {
-                boolean isRemovable;
-                if (build_frame[i][2] == 1)
-                    isRemovable = isRemovableBo(build_frame[i][0], build_frame[i][1]);
-                else
-                    isRemovable = isRemovablePillar(build_frame[i][0], build_frame[i][1]);
-                if (isRemovable) {
-                    map[build_frame[i][1]][build_frame[i][0]] = 3;
+            } else { // 삭제
+                boolean isRemovable = true;
+                // 해당 블럭을 빼고 현재 상태가 가능한지 체크
+                int tempConstruct = a;
+                contructMap[a][y][x] = -1;
+                for (int removeI = 0; removeI <= mapLength; removeI++) {
+                    for (int removeJ = 0; removeJ <= mapLength; removeJ++) {
+
+                        if (contructMap[0][removeI][removeJ] != -1 && !isBuildablePillar(removeJ, removeI)) {
+                            isRemovable = false;
+                            break;
+                        }
+                        if (contructMap[1][removeI][removeJ] != -1 && !isBuildableBo(removeJ, removeI)) {
+                            isRemovable = false;
+                            break;
+
+                        }
+                    }
                 }
+
+                contructMap[tempConstruct][y][x] = isRemovable ? -1 : tempConstruct;
             }
         }
         List<int[]> result = new ArrayList<>();
 
-        for (int i = 0; i < mapLength; i++) {
-            for (int j = 0; j < mapLength; j++) {
-                if (map[i][j] != 3) {
-                    int[] resultArray = {j, i, map[i][j]};
+        for (int i = 0; i <= mapLength; i++) {
+            for (int j = 0; j <= mapLength; j++) {
+                if (contructMap[0][j][i] != -1) {
+                    int[] resultArray = {i, j, contructMap[0][j][i]};
+                    result.add(resultArray);
+                }
+                if (contructMap[1][j][i] != -1) {
+                    int[] resultArray = {i, j, contructMap[1][j][i]};
                     result.add(resultArray);
                 }
             }
@@ -78,39 +109,41 @@ public class pg60061 {
 
         int[][] ansArray = new int[result.size()][3];
         for (int i = 0; i < result.size(); i++) {
-            ansArray[i] = result.get(0);
+            ansArray[i] = result.get(i);
         }
 
         return ansArray;
     }
 
     public static boolean isBuildableBo(int x, int y) {
-        // 아래가 기둥인경우
-        if (map[y - 1][x] == 0)
+        // 보를 설치할 수 있는 경우
+        // 바로 아래가 기둥인경우
+        if (contructMap[0][y - 1][x] == 0)
             return true;
-        // 아래 오른쪽이 기둥인경
-        if (x < (mapLength - 1) && map[y - 1][x + 1] == 0)
+        // 오른쪽 아래가 기둥인경우
+        if (contructMap[0][y - 1][x + 1] == 0)
             return true;
-        if ((x - 1 > 0 && x + 1 < mapLength) && (map[y][x + 1] == 1 && map[y][x - 1] == 1))
+        // 양쪽이 보인 경우
+        if (x > 0 && contructMap[1][y][x - 1] == 1 && contructMap[1][y][x + 1] == 1)
             return true;
-
         return false;
     }
 
     public static boolean isBuildablePillar(int x, int y) {
+        // 기둥을 설치할 수 있는경우
+        // 바닥인경우
         if (y == 0)
             return true;
-        if (map[y - 1][x] == 0 || (x > 0 && map[y - 1][x - 1] == 1))
+        // 아래가 기둥인경우
+        if (contructMap[0][y - 1][x] == 0)
+            return true;
+        // 왼쪽 보가 설치된 경우
+        if (x > 0 && contructMap[1][y][x - 1] == 1)
+            return true;
+        // 겹처서 보가 설치된 경
+        if (x > 0 && contructMap[1][y][x] == 1)
             return true;
         return false;
-    }
-
-    public static boolean isRemovableBo(int x, int y) {
-        return true;
-    }
-
-    public static boolean isRemovablePillar(int x, int y) {
-        return true;
     }
 
 }
