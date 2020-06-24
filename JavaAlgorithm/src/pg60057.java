@@ -18,7 +18,6 @@ public class pg60057 {
                 tokens.add(s.substring(start, Math.min(s.length(), start + size)));
             }
 
-
             StringBuilder sb = new StringBuilder();
             int sameCount = 0;
             int index = 0;
