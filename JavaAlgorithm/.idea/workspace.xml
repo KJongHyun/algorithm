@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="프로그래머스 60059 문제">
-      <change afterPath="$PROJECT_DIR$/src/pg42888.java" afterDir="false" />
+    <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pg42891.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pg60061.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pg60061.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -80,9 +78,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.pg42888">
+  <component name="RunManager" selected="Application.pg42891">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="back2933" />
       <module name="JavaAlgorithm" />
@@ -90,15 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2580" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj2580" />
+    <configuration name="pg42888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg42888" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg42888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pg42888" />
+    <configuration name="pg42891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pg42891" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,19 +125,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.boj2580" />
       <item itemvalue="Application.pg60059" />
       <item itemvalue="Application.pg60057" />
       <item itemvalue="Application.pg60061" />
       <item itemvalue="Application.pg42888" />
+      <item itemvalue="Application.pg42891" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pg42891" />
         <item itemvalue="Application.pg42888" />
         <item itemvalue="Application.pg60061" />
         <item itemvalue="Application.pg60057" />
         <item itemvalue="Application.pg60059" />
-        <item itemvalue="Application.boj2580" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,8 @@
       <workItem from="1591884489910" duration="501000" />
       <workItem from="1592381259379" duration="11423000" />
       <workItem from="1592751066133" duration="252000" />
-      <workItem from="1592978708874" duration="2793000" />
+      <workItem from="1592978708874" duration="3358000" />
+      <workItem from="1594895337068" duration="5348000" />
     </task>
     <task id="LOCAL-00001" summary="백준2933 문제">
       <created>1586187630629</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592389065906</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="프로그래머스 42888 문제 카카오 공채 문제">
+      <created>1592991350160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592991350160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,60 +226,77 @@
     <MESSAGE value="백준2933 문제" />
     <MESSAGE value="백준2580 문제" />
     <MESSAGE value="프로그래머스 60059 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 60059 문제" />
+    <MESSAGE value="프로그래머스 42888 문제 카카오 공채 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 42888 문제 카카오 공채 문제" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1594898720279">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1594898720279" />
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592981448021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1592981448021" />
-    <state x="482" y="68" key="CommitChangelistDialog2" timestamp="1592733712891">
+    <state x="482" y="51" key="CommitChangelistDialog2" timestamp="1592991349933">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="482" y="68" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592733712891" />
+    <state x="482" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592991349933" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604780984" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601471606" />
     <state x="857" y="313" key="CommitChangelistDialog2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389065813" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1592984043604">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594900408277">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592984043604" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594900408277" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
     <state width="2055" height="371" key="GridCell.Tab.0.bottom/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1592984043603">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1594900408275">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592984043603" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594900408275" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
     <state width="2055" height="371" key="GridCell.Tab.0.center/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1592984043602">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1594900408274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592984043602" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594900408274" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594898456882" />
     <state width="2055" height="371" key="GridCell.Tab.0.left/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340282" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1592984043603">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1594900408276">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592984043603" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594900408276" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
     <state width="2055" height="371" key="GridCell.Tab.0.right/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592393340283" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1592984043777">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1594897242570">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592984043777" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1592984043776">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594897242570" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1594897242569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592984043776" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1592984043774">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594897242569" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1594897242568">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592984043774" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1592984043776">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594897242568" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1594897242569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592984043776" />
-    <state x="495" y="288" key="Vcs.Push.Dialog.v2" timestamp="1592733716850">
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594897242569" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1592991366238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="288" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592733716850" />
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1592991366238" />
+    <state x="358" y="218" key="MultipleFileMergeDialog" timestamp="1592991368716">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="358" y="218" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1592991368716" />
+    <state x="495" y="288" key="Vcs.Push.Dialog.v2" timestamp="1594910257608">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="288" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594910257608" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1591604783313" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601473389" />
     <state x="880" y="476" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389067892" />
@@ -285,10 +308,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="737" y="527" key="git4idea.merge.GitPullDialog/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592381270481" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592743432344">
+    <state x="15" y="31" key="new project wizard" timestamp="1592991878554">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592743432344" />
+    <state x="15" y="31" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1592991878554" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594899858499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594899858499" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,88 +371,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
