@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="934db710-3229-4869-9755-f2ec8e18c02d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/back2933.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj2933.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAlgorithm/back2933$Dot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAlgorithm/back2933.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.leetcode2">
+  <component name="RunManager" selected="Application.leetcode3">
     <configuration name="boj2933" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj2933" />
       <module name="JavaAlgorithm" />
@@ -89,6 +89,13 @@
     </configuration>
     <configuration name="leetcode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode2" />
+      <module name="JavaAlgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode3" />
       <module name="JavaAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,13 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pg42891_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pg42891_new" />
-      <module name="JavaAlgorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pg42892" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pg42892" />
       <module name="JavaAlgorithm" />
@@ -123,20 +123,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pg42891_new" />
       <item itemvalue="Application.pg17683" />
       <item itemvalue="Application.pg42892" />
       <item itemvalue="Application.pg157449" />
       <item itemvalue="Application.boj2933" />
       <item itemvalue="Application.leetcode2" />
+      <item itemvalue="Application.leetcode3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode3" />
         <item itemvalue="Application.leetcode2" />
         <item itemvalue="Application.pg157449" />
         <item itemvalue="Application.pg42892" />
         <item itemvalue="Application.pg17683" />
-        <item itemvalue="Application.pg42891_new" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1595307996550" duration="2933000" />
       <workItem from="1595505371285" duration="3415000" />
       <workItem from="1595514730634" duration="6325000" />
-      <workItem from="1596000736370" duration="12941000" />
+      <workItem from="1596000736370" duration="18428000" />
     </task>
     <task id="LOCAL-00001" summary="백준2933 문제">
       <created>1586187630629</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595509351520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leetcode2번 문제">
+      <created>1596077394946</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596077394946</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +253,8 @@
     <MESSAGE value="프로그래머스 42888 문제 카카오 공채 문제" />
     <MESSAGE value="프로그래머스 60059 문제" />
     <MESSAGE value="프로그래머스 17683, 42892 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 17683, 42892 문제" />
+    <MESSAGE value="leetcode2번 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode2번 문제" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="31" key="#Project_Structure" timestamp="1594898720279">
@@ -257,68 +265,69 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1592981448021" />
-    <state x="857" y="295" key="CommitChangelistDialog2" timestamp="1595509351436">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="2563" y="213" key="CommitChangelistDialog2" timestamp="1596091197877">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="482" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592991349933" />
+    <state x="2563" y="213" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596091197877" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595509351436" />
     <state x="857" y="295" key="CommitChangelistDialog2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601471606" />
     <state x="857" y="313" key="CommitChangelistDialog2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389065813" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1596075496256">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1596087903269">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594900408277" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496256" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903269" />
     <state width="2518" height="516" key="GridCell.Tab.0.bottom/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830311" />
     <state width="2518" height="384" key="GridCell.Tab.0.bottom/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1595266452606" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1596075496256">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1596087903269">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594900408275" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496256" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903269" />
     <state width="2518" height="516" key="GridCell.Tab.0.center/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830310" />
     <state width="2518" height="384" key="GridCell.Tab.0.center/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1595266452606" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1596075496256">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1596087903269">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594900408274" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594898456882" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496256" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903269" />
     <state width="2518" height="516" key="GridCell.Tab.0.left/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830309" />
     <state width="2518" height="384" key="GridCell.Tab.0.left/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1595266452605" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1596075496256">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1596087903269">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594900408276" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594898456883" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496256" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903269" />
     <state width="2518" height="516" key="GridCell.Tab.0.right/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830311" />
     <state width="2518" height="384" key="GridCell.Tab.0.right/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1595266452606" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596075496430">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596087903401">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594897242570" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496430" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903401" />
     <state width="2518" height="516" key="GridCell.Tab.1.bottom/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830314" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596075496429">
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596087903401">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594897242569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496429" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903401" />
     <state width="2518" height="516" key="GridCell.Tab.1.center/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830313" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596075496429">
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596087903400">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594897242568" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496429" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903400" />
     <state width="2518" height="516" key="GridCell.Tab.1.left/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830312" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596075496429">
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596087903401">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594897242569" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596075496429" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596087903401" />
     <state width="2518" height="516" key="GridCell.Tab.1.right/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595522830313" />
     <state x="144" y="79" key="MergeDialog" timestamp="1592991366238">
       <screen x="0" y="0" width="1440" height="900" />
@@ -328,10 +337,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="218" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1592991368716" />
-    <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1595509352927">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="2580" y="332" key="Vcs.Push.Dialog.v2" timestamp="1596077396354">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="495" y="288" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594910257608" />
+    <state x="2580" y="332" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1596077396354" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.204.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1595509352927" />
     <state x="880" y="460" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.0.2560.1440@0.0.2560.1440" timestamp="1591601473389" />
     <state x="880" y="476" key="Vcs.Push.Dialog.v2/2560.227.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1592389067892" />
@@ -395,6 +405,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode2.java</url>
           <line>47</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode3.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
