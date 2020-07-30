@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class back2933 {
+public class boj2933 {
     static int ROW;
     static int COL;
     static List<Dot> cluster = new ArrayList<>();
