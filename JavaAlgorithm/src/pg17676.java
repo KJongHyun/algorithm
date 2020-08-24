@@ -37,16 +37,20 @@ public class pg17676 {
             int include = 0;
             TimeData duration = new TimeData(timeData.startDateTime, timeData.startDateTime.plusNanos(durationSecond));
             for (TimeData timeData1 : timeDataList) {
-                if (isIncludeTime(duration, timeData1.startDateTime) || isIncludeTime(duration, timeData1.endDateTime))
+                if (isIncludeTime(duration, timeData1))
                     include++;
+//                if (isIncludeTime(duration, timeData1.startDateTime) || isIncludeTime(duration, timeData1.endDateTime) || (duration.startDateTime.isBefore(timeData1.startDateTime)) && duration.endDateTime.isAfter(timeData1.endDateTime))
+//                    include++;
             }
             if (max < include)
                 max = include;
             include = 0;
             duration = new TimeData(timeData.endDateTime, timeData.endDateTime.plusNanos(durationSecond));
             for (TimeData timeData2 : timeDataList) {
-                if (isIncludeTime(duration, timeData2.startDateTime) || isIncludeTime(duration, timeData2.endDateTime))
+                if (isIncludeTime(duration, timeData2))
                     include++;
+//                if (isIncludeTime(duration, timeData2.startDateTime) || isIncludeTime(duration, timeData2.endDateTime) || (duration.startDateTime.isBefore(timeData2.startDateTime)) && duration.endDateTime.isAfter(timeData2.endDateTime))
+//                    include++;
             }
             if (max < include)
                 max = include;
@@ -57,6 +61,19 @@ public class pg17676 {
 
     public static boolean isIncludeTime(TimeData duration, LocalDateTime target) {
         return target.isEqual(duration.startDateTime) || target.isEqual(duration.endDateTime) || (target.isAfter(duration.startDateTime) && target.isBefore(duration.endDateTime));
+    }
+
+    public static boolean isIncludeTime(TimeData duration, TimeData target) {
+        if (duration.startDateTime.isEqual(target.startDateTime) || duration.endDateTime.isEqual(target.startDateTime) || duration.startDateTime.isEqual(target.endDateTime) || duration.endDateTime.isEqual(target.endDateTime)) {
+            return true;
+        } else if (duration.startDateTime.isBefore(target.startDateTime) && duration.endDateTime.isAfter(target.startDateTime)) {
+            return true;
+        } else if (duration.startDateTime.isBefore(target.endDateTime) && duration.endDateTime.isAfter(target.endDateTime)) {
+            return true;
+        } else if (duration.startDateTime.isAfter(target.startDateTime) && duration.endDateTime.isBefore(target.endDateTime)) {
+            return true;
+        } else
+            return false;
     }
 
     public static List<TimeData> convertTimeData(String[] lines) {
