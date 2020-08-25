@@ -1,8 +1,5 @@
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class pg17685 {
 
@@ -13,92 +10,56 @@ public class pg17685 {
         System.out.println(solution(arr));
     }
 
-//    public static int solution(String[] words) {
-//
-//        List<String> wordsList = new ArrayList<>();
-//
-//        for (String word : words) {
-//            wordsList.add(word);
-//        }
-//
-//        Map<String, String> cache = new HashMap<>();
-//
-//        int typeCount = 0;
-//
-//        for (String targetWord : words) {
-//
-//            String startWord = cache.get(targetWord);
-//            int startIndex = startWord == null ? 1 : startWord.length();
-//            for (int i = startIndex; i <= targetWord.length(); i++) {
-//                String typeWord = targetWord.substring(0, i);
-//                List<String> collectList = wordsList.stream().filter(word ->
-//                        word.startsWith(typeWord)).collect(Collectors.toList());
-//
-//                for (String collectWord : collectList) {
-//                    if (cache.containsKey(collectWord)) {
-//                        String preTypeWord = cache.get(collectWord);
-//                        if (preTypeWord.length() < typeWord.length())
-//                            cache.put(collectWord, typeWord);
-//                    } else {
-//                        cache.put(collectWord, typeWord);
-//                    }
-//                }
-//                if (collectList.size() == 1 || typeWord.equals(targetWord)) {
-//                    typeCount += typeWord.length();
-//                    break;
-//                }
-//            }
-//        }
-//        return typeCount;
-//    }
-
     public static int solution(String[] words) {
-
-        List<String> wordsList = new ArrayList<>();
-
+        int ans = 0;
+        Trie trie = new Trie();
         for (String word : words) {
-            wordsList.add(word);
+            trie.insert(word);
         }
 
-        Map<String, String> cache = new HashMap<>();
-        Map<String, List<String>> searchCache = new HashMap<>();
+        for (String word : words) {
+            int count = trie.getCount(word);
+            ans += count;
+        }
 
+        return ans;
+    }
 
-        int typeCount = 0;
+    static class Trie {
+        TrieNode root = new TrieNode();
 
-        for (String targetWord : words) {
-
-            String startWord = cache.get(targetWord);
-            int startIndex = startWord == null ? 1 : startWord.length();
-            List<String> searchList = wordsList;
-            for (int i = startIndex; i <= targetWord.length(); i++) {
-                String typeWord = targetWord.substring(0, i);
-                List<String> collectList = searchCache.get(typeWord);
-                if (collectList == null) {
-                    searchList = searchList.stream().filter(word ->
-                            word.startsWith(typeWord)).collect(Collectors.toList());
-                    searchCache.put(typeWord, searchList);
-                    for (String collectWord : searchList) {
-                        if (cache.containsKey(collectWord)) {
-                            String preTypeWord = cache.get(collectWord);
-                            if (preTypeWord.length() < typeWord.length())
-                                cache.put(collectWord, typeWord);
-                        } else {
-                            cache.put(collectWord, typeWord);
-                        }
-                    }
-                }
-
-
-                if (searchList.size() == 1 || typeWord.equals(targetWord)) {
-                    typeCount += typeWord.length();
-                    break;
+        void insert(String word) {
+            TrieNode currentNode = root;
+            for (int i = 0; i < word.length(); i++) {
+                String target = String.valueOf(word.charAt(i));
+                if (currentNode.children.containsKey(target)) {
+                    currentNode = currentNode.children.get(target);
+                    currentNode.possibleWord++;
+                } else {
+                    currentNode.children.put(target, new TrieNode());
+                    currentNode = currentNode.children.get(target);
                 }
             }
         }
 
-        return typeCount;
+        int getCount(String word) {
+            TrieNode currentNode = root;
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < word.length(); i++) {
+                String target = String.valueOf(word.charAt(i));
+                sb.append(target);
+                if (currentNode.children.containsKey(target) && currentNode.children.get(target).possibleWord == 1) {
+                    return sb.length();
+                }
+                currentNode = currentNode.children.get(target);
+            }
+            return sb.length();
+        }
+    }
 
+    static class TrieNode {
+        int possibleWord = 1;
+        Map<String, TrieNode> children = new HashMap<>();
     }
 
 }
