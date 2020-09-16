@@ -36,7 +36,7 @@ public class Kakao2020_6 {
             for (int j = 0; j < 4; j++) {
                 if (BOARD[i][j] != 0) {
                     bfsStart(gameInfo, j, i);
-                    bfsTarget(gameInfo, gameInfo.target);
+                    // bfsTarget(gameInfo, gameInfo.target);
                 }
             }
         }
@@ -49,7 +49,7 @@ public class Kakao2020_6 {
 
             if (!currentGameInfo.isSelect) {
                 // 시작 지점 찾기
-                bfsStart(currentGameInfo);
+//                bfsStart(currentGameInfo);
             } else {
                 // 도착 지점 찾기
 
@@ -113,9 +113,9 @@ public class Kakao2020_6 {
         return answer;
     }
 
-    public static GameInfo bfsTarget(GameInfo gameInfo, int target) {
-
-    }
+//    public static GameInfo bfsTarget(GameInfo gameInfo, int target) {
+//
+//    }
 
     public static int ctrlDirectionX(int x, int y, int move) {
         int dx = x;
