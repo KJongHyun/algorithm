@@ -1,4 +1,5 @@
-import java.util.PriorityQueue;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class pg67259 {
 
@@ -44,7 +45,7 @@ public class pg67259 {
 
     public static void dijkstra() {
         d[0][0] = 0;
-        PriorityQueue<Point> q = new PriorityQueue<>();
+        Queue<Point> q = new LinkedList<>();
         Point start = new Point(0, 0, -1);
         start.cost = 0;
         q.offer(start);
@@ -61,7 +62,7 @@ public class pg67259 {
                     int cost = current.direction == -1 || current.direction == i ? 100 : 600;
                     Point next = new Point(dx, dy, i);
                     int nextCost = current.cost + cost;
-                    if (d[dy][dx] > nextCost) {
+                    if (d[dy][dx] >= nextCost) {
                         d[dy][dx] = nextCost;
                         next.cost = nextCost;
                         q.offer(next);
