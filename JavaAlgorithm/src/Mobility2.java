@@ -9,7 +9,6 @@ public class Mobility2 {
         String[][] friends2 = {{"david", "demi"}, {"frank", "demi"}, {"demi", "james"}};
         String user_id2 = "frank";
         String[] solution = solution(friends2, user_id2);
-        System.out.println("end");
     }
 
     public static String[] solution(String[][] friends, String user_id) {

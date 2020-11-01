@@ -1,6 +1,15 @@
+import java.util.HashMap;
+
 public class Mobility1 {
     public static void main(String[] args) {
-        System.out.println(solution(1));
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, "aaa");
+        map.put(1, "bbb");
+        map.put(1, "ccc");
+
+        System.out.println(map.size());
+        System.out.println(map.get(1));
+
     }
 
     public static int solution(int num) {
