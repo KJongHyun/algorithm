@@ -6,8 +6,8 @@ import java.util.List;
 public class KakaoEnter2 {
 
     public static void main(String[] args) {
-        List<Integer> timestamp = new LinkedList<Integer>(Arrays.asList(2, 1, 1, 1, 1, 1, 1));
-        List<Integer> top = Arrays.asList(1, 1);
+        List<Integer> timestamp = new LinkedList<Integer>(Arrays.asList(2, 1, 1, 1, 1, 1, 3));
+        List<Integer> top = Arrays.asList(2, 1);
         System.out.println(requestsServed(timestamp, top));
     }
 
